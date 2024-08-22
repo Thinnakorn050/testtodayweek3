@@ -118,5 +118,5 @@ app.delete('/expenses/:id', (req, res) => {
 });
 
 app.listen(4000, () => {
-    console.log('เซิร์ฟเวอร์ทำงานที่พอร์ต 4000');
+    console.log('Server is running 4000');
 });
